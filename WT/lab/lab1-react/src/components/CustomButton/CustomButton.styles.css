@@ -1,0 +1,9 @@
+.cutom_button{
+    width: fit-content;
+    padding: 8px 20px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}

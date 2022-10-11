@@ -1,0 +1,7 @@
+basic arithmetic - complete
+control structure
+loops 
+command line arguments
+functions
+string operations 
+arrays

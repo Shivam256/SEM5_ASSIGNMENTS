@@ -1,0 +1,38 @@
+.input_container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+
+.input_container>label {
+    font-size: 1.5em;
+}
+
+.input_container>input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 1.2em;
+    width: 100%;
+    background-color: transparent;
+}
+
+.input_container>input:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .input_container > label{
+        font-size: 1.2em;
+    }
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .input_container > label{
+        font-size: 1em;
+    }
+    
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>Document</title>
+  </head>
+
+  <body style="height: 100vh; background-color: #ececec">
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: rgb(16, 141, 204);
+        border-radius: 10px;
+        color:#fff;
+        gap:20px;
+        font-family: monospace;
+      "
+      class="name"
+    >
+      <h2>Name: Shivam Gavandi</h2>
+      <h2>Roll no: 80</h2>
+      <h2>Class:TY-A</h2>
+      <h2>Batch: B3</h2>
+      <h2>Subject: CN</h2>
+    </div>
+
+    <div
+      style="display: flex; justify-content: center; align-items: center"
+      id="chartArea"
+    >
+      <canvas id="myChart" style="width: 100%; max-width: 600px"></canvas>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+      "
+    >
+      <input
+        style="margin-right: 2rem"
+        class="inputTag"
+        type="text"
+        placeholder="enter binary string here"
+      />
+      <button class="btn">Create graph</button>
+    </div>
+
+    <script src="./chart.js"></script>
+  </body>
+</html>
