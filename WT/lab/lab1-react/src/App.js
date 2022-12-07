@@ -66,6 +66,7 @@ function App() {
       const otp = generateOTP();
       sendEmail({ otp });
       localStorage.setItem("emailOTP", otp);
+      console.log(otp);
       enqueueSnackbar("Otp have been sent to your email!", {
         variant: "success",
       });
